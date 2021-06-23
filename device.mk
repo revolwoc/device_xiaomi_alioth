@@ -23,6 +23,10 @@ PRODUCT_PACKAGES += \
     SettingsProviderM2012K11AG \
     SettingsProviderM2012K11AI
 
+PRODUCT_PACKAGES += \
+    AliothFrameworks \
+    AliothSystemUI
+
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
@@ -56,7 +60,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# Sensors conf
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
