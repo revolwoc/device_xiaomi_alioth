@@ -18,4 +18,12 @@
 <resources>
     <!-- for 20dp of padding at 3.5px/dp at default density -->
     <dimen name="rounded_corner_content_padding">50px</dimen>
+
+    <!-- dimensions for the navigation bar handle -->
+    <dimen name="navigation_home_handle_width">72dp</dimen>
+
+    <!-- Burn-in protection -->
+    <dimen name="horizontal_max_swift">3.0dp</dimen>
+    <dimen name="vertical_max_swift">1.0dp</dimen>
+
 </resources>
