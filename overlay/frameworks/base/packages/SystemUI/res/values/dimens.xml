@@ -18,6 +18,8 @@
 <resources>
     <!-- for 20dp of padding at 3.5px/dp at default density -->
     <dimen name="rounded_corner_content_padding">50px</dimen>
+    <dimen name="physical_power_button_center_screen_location_y">1060px</dimen>
+    <dimen name="physical_fingerprint_sensor_center_screen_location_y">1060px</dimen>
 
     <!-- dimensions for the navigation bar handle -->
     <dimen name="navigation_home_handle_width">72dp</dimen>
