@@ -95,6 +95,13 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.dbg.wfc_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1
 
+#pocket mode
+PRODUCT_PACKAGES += \
+    PocketMode
+    
+PRODUCT_COPY_FILES += \
+     $(LOCAL_PATH)/pocket/privapp-permissions-pocketmode.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-pocketmode.xml
+
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
