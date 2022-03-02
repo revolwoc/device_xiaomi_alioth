@@ -1,4 +1,4 @@
-# Unpinned blobs from alioth_global-user 11 RKQ1.200826.002 V12.5.4.0.RKHMIXM release-keys
+# Unpinned blobs from alioth_global-user 11 RKQ1.200826.002 V12.5.6.0.RKHMIXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -449,7 +449,6 @@ vendor/etc/camera/reid_float.dlc
 vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/seg_quantized.dlc
 vendor/etc/camera/sr_params.xml
-vendor/etc/camera/st_license.lic
 vendor/etc/camera/vidhance_calibration
 
 # Camera-firmware
@@ -524,6 +523,7 @@ vendor/etc/sensors/config/sns_tilt_to_wake.json
 vendor/etc/sensors/config/sx932x_0.json
 vendor/etc/sensors/config/sx932x_1.json
 vendor/etc/sensors/config/tcs3701.json
+vendor/etc/sensors/hals.conf
 vendor/etc/sensors/judge_calibrated.json
 vendor/etc/sensors/sensor_diag.cfg
 vendor/etc/sensors/sns_reg_config
@@ -546,6 +546,7 @@ vendor/lib/libssccalapi.so
 vendor/lib/libultrasound.so
 vendor/lib/sensors.mius.proximity.so
 vendor/lib/sensors.ssc.so
+vendor/lib/sensors.touch.so
 vendor/lib64/libnotifyaudiohal.so
 vendor/lib64/libsensorcal.so
 vendor/lib64/libsensorslog.so
@@ -556,6 +557,7 @@ vendor/lib64/libultrasound.so
 vendor/lib64/sensors.elliptic.so
 vendor/lib64/sensors.mius.proximity.so
 vendor/lib64/sensors.ssc.so
+vendor/lib64/sensors.touch.so
 
 # Thermal config
 vendor/etc/thermal-camera.conf
