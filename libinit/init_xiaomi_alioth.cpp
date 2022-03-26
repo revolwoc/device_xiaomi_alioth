@@ -9,7 +9,7 @@
 
 #include "vendor_init.h"
 
-#define FINGERPRINT "google/raven/raven:12/SQ1D.220205.003/8069835:user/release-keys"
+#define FINGERPRINT "google/raven/raven:12/SP2A.220305.013.A3/8229987:user/release-keys"
 
 static const variant_info_t aliothcn_info = {
     .hwc_value = "CN",
