@@ -34,7 +34,7 @@
     <dimen name="physical_power_button_center_screen_location_y">975px</dimen>
 
     <!-- for 20dp of padding at 3.5px/dp at default density -->
-    <dimen name="rounded_corner_content_padding">50px</dimen>
+    <dimen name="rounded_corner_content_padding">16dp</dimen>
 
     <!-- dimensions for the navigation bar handle -->
     <dimen name="navigation_home_handle_width">72dp</dimen>
@@ -42,5 +42,17 @@
     <!-- Burn-in protection -->
     <dimen name="horizontal_max_swift">3.0dp</dimen>
     <dimen name="vertical_max_swift">1.0dp</dimen>
+
+    <!-- the padding on the start of the statusbar -->
+    <dimen name="status_bar_padding_start">4dp</dimen>
+
+    <!-- the padding on the end of the statusbar -->
+    <dimen name="status_bar_padding_end">4dp</dimen>
+
+    <!-- Margin on the left side of the carrier text on Keyguard -->
+    <dimen name="keyguard_carrier_text_margin">25dp</dimen>
+
+    <!-- Margin on the right side of the system icon group on Keyguard. -->
+    <dimen name="system_icons_keyguard_padding_end">8dp</dimen>
 
 </resources>
