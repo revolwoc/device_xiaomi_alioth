@@ -53,6 +53,10 @@ TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# Pixel Launcher
+PRODUCT_PACKAGES += \
+    PixelLauncher
+
 # Audio
 TARGET_ENABLE_AUDIO_ULL := true
 
