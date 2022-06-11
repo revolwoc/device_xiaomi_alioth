@@ -58,5 +58,11 @@ $(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
 PRODUCT_PACKAGES += \
     RemovePackages
 
+# MatlogX
+ifeq ($(TARGET_WITH_MATLOGX),true)
+PRODUCT_PACKAGES += \
+     MatlogX
+endif
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
