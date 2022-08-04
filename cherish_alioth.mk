@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common VoidUI stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # VoidUI Feature Flags
 TARGET_INCLUDE_WIFI_EXT := true
@@ -24,11 +24,14 @@ TARGET_SUPPORTS_QUICK_TAP  := true
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
-PRODUCT_NAME := evolution_alioth
+PRODUCT_NAME := cherish_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO F3
+CHERISH_BUILD_TYPE := OFFICIAL
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer=hungphan2001&revolwoc
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
